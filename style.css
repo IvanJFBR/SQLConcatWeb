@@ -1,0 +1,42 @@
+html, body, .container{
+    height: 100%;
+    margin: 0;
+}
+
+body{
+    background-color: mediumturquoise;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: ghostwhite;
+}
+
+textarea{
+    height: 100%;
+    resize: none;
+    border-radius: 7px;
+    padding: 15px;
+    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.7);
+}
+
+.container{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: auto;
+    margin-top: 0;
+    height: 85%;
+    position: relative;
+    flex: 0 0 110px;
+}
+
+.footer{
+    text-align: center;
+    color: ghostwhite;
+    position: relative;
+    flex: 1 1 600px;
+}
